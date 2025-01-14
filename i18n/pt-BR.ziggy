@@ -1,0 +1,28 @@
+.back = "←  Retornar",
+// index.shtml
+.community = "Participe da Comunidade",
+.source = "Código Fonte",
+.get_started = "COMECE AQUI",
+.latest_release = "Última Release:",
+.documentation = "Documentação",
+.changes = "Changelog",
+.overview = "Visão geral",
+.code_samples = "Mais exemplos de código",
+.all_communities = "Mostrar todas as comunidades",
+.learn_more = "Saiba mais",
+.github_sponsors_update_frequency = "Essa seção é atualizada diariamente.",
+// learn.shtml
+.version_unstable = "Instável",
+.version_latest_stable = "Última estável",
+// download.shtml
+.release_notes = "Notas da versão",
+.language_reference = "Referência da linguagem",
+.std_docs = "Documentação da Biblioteca Padrão",
+.download_source = "Fontes",
+.download_os = "SO",
+.download_arch = "Arquitetura",
+.download_filename = "Nome do Arquivo",
+.download_sig = "Assinatura",
+.download_size = "Tamanho",
+// locale.shtml
+.languages_menu = "Esta página está disponível também nas seguintes linguagens:",

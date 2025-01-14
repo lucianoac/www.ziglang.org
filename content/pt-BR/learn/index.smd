@@ -1,0 +1,70 @@
+---
+.title = "Aprenda",
+.author = "",
+.date = @date("2025-01-14:00:00:00"),
+.layout = "learn.shtml",
+.custom = {
+	"mobile_menu_title": "Aprenda",
+},
+---
+# [Aprenda]($section.id('learn'))
+This section lists resources useful to go from knowing nothing about Zig up 
+to understanding its philosophy. 
+
+
+## [Guides]($section.id('guides'))
+This section is eventually going to be bundled with Zig's standard library documentation, but
+in the meantime you can browse it from here.
+
+- [Zig Build System](./build-system/)
+Introduction to the Zig build system.
+
+## Introdução
+These are all introductions to Zig aimed at programmers with different backgrounds.
+
+- [In-depth Overview](./overview/)  
+Here's an in-depth feature overview of Zig from a systems-programming perspective.
+- [Why Zig When There is Already C++, D, and Rust?](./why_zig_rust_d_cpp/)  
+An introduction to Zig for C++, D, and Rust programmers.
+- [Code Examples](./samples/)  
+A list of snippets to get a feeling for how Zig code looks.
+- [Tools](./tools/)  
+A list of useful tools that can help you write Zig code.
+
+
+## Comece aqui!
+Se você está pronto para começar a programar em Zig, este guia irá te ajudar a preparar seu ambiente.
+
+- [Comece aqui](./getting-started)  
+
+## Recursos para aprendizado online
+- [zig.guide](https://zig.guide)  
+Uma introdução organizada para Zig por [Sobeston](https://github.com/sobeston).
+- [Ziglings](https://ziglings.org)  
+Aprenda Zig corrigindo programas bugados.
+- [Zig on Exercism](https://exercism.org/tracks/zig)
+Resolva exercícios de código e consiga mentoria para auxiliar o desenvolvimento de fluência em Zig.
+- [Learning Zig](https://www.openmymind.net/learning_zig/)
+Breve introdução para Zig destinada a desenvolvedores vindos de linguagens com gerenciamento automático de memória.
+
+## Videos e posts relevantes
+- [Road to Zig 1.0](https://www.youtube.com/watch?v=Gv2I7qTux7g) [video]  
+Video por [Andrew Kelley](https://andrewkelley.me) introduzindo Zig e sua filosofia.
+- [Zig's New Relationship with LLVM](https://kristoff.it/blog/zig-new-relationship-llvm/)  
+Um post sobre o trabalho para a construção de um compilador self-hosted (uma versão do compilador Zig que é capaz de compilar a si mesmo), também destacado em [um artigo na lwn.net](https://lwn.net/Articles/833400/).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

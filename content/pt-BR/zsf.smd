@@ -1,0 +1,91 @@
+---
+.title = "Zig Software Foundation",
+.author = "",
+.date = @date("2025-01-14:00:00:00"),
+.layout = "page.shtml",
+.custom = {
+	"mobile_menu_title": "ZSF",
+},
+---
+# Apoiando a Zig Software Foundation
+
+Por favor considere uma doação recorrente. É necessário um trabalho contínuo para manter e suportar software de alta qualidade
+
+```=html
+<div id="zsf-every-donate-btn">
+  <a href="https://www.every.org/zig-software-foundation-inc?utm_campaign=zsf_homepage#/donate">Donate</a>
+
+  <script async defer src="https://embeds.every.org/0.4/button.js?explicit=1" id="every-donate-btn-js"></script>
+  <script>
+    function zsfCreateWidget() {
+      everyDotOrgDonateButton.createButton({
+        selector: "#zsf-every-donate-btn",
+        nonprofitSlug: "zig-software-foundation-inc",
+        fontSize: "32px",
+        label: "Sponsor"
+      });
+      everyDotOrgDonateButton.createWidget({
+        selector: "#zsf-every-donate-btn",
+        nonprofitSlug: "zig-software-foundation-inc",
+        defaultDonationAmount: 10,
+        defaultFrequency: 'monthly'
+      });
+      // Workaround for https://github.com/everydotorg/donate-button/issues/384
+      let style = document.createElement('style');
+      style.innerHTML = '#donation-input { color: black; } #privateNote { color: black }';
+      document.getElementById("shadow-wrapper").shadowRoot.appendChild(style);
+    }
+    if (window.everyDotOrgDonateButton) {
+      zsfCreateWidget();
+    } else {
+      document.getElementById("every-donate-btn-js").addEventListener('load', zsfCreateWidget);
+    }
+  </script>
+</div>
+```
+
+
+# Mission statement
+A missão da Zig Software Foundation é promover, proteger e avançar a linguagem Zig, apoiar e facilitar o crescimento de uma comunidade diversa e internacional de programadores Zig, e fornecer educação orientação para estudantes, ensinando a próxima geração de programadores a serem competentes, éticos e a manterem uns aos outros em altos padrões
+
+**ZSF é uma organização sem fins lucrativos.** Finanças, atas de reuniões, e outros detalhes estão [disponíveis ao público](https://drive.google.com/drive/folders/1ucHARxVbhrBbuZDbhrGHYDTsYAs8_bMH?usp=sharing).
+
+# Membros do conselho
+
+- [Andrew Kelley](https://andrewkelley.me/) (Presidente)
+- [Josh Wolfe](https://github.com/thejoshwolfe/) (Secretário)
+- [Mason Remaley](https://www.masonremaley.com/) (Tesoureiro)
+
+# Apoio
+
+Doando para a ZSF, você está financiando o desenvolvimento do Zig e seu ecossistema, o que, por sua vez, beneficia a comunidade de código aberto como um todo. Membros da comunidade Zig contribuíram para correções de bugs no [LLVM](https://llvm.org/), [Wine](https://winehq.org/), [QEMU](https://qemu.org/), [musl libc](https://musl.libc.org/), [GDB](https://www.gnu.org/software/gdb/) entre outros.
+
+A ZSF é uma organização pequena e faz uso eficiente dos recursos financeiros. O plano é manter as coisas assim, mas queremos transformar nossos voluntários não remunerados em mantenedores pagos para ajudar a revisar e integrar pull requests, além de avançar mais rapidamente em direção a versão 1.0. O objetivo principal da ZSF, sendo uma organização sem fins lucrativos, é beneficiar as pessoas. Estamos trabalhando para que os mantenedores de proejtos de código aberto sejam remunerados pelo seu tempo.
+
+# Como doar
+Aqui estão algumas informações de como doar por outros meio que não o Github Sponsors. Verifique com autoridades locais a possibilidade de deduzir suas doações de seus impostos.
+
+## EIN
+84-5105214
+
+## Endereço
+Zig Software Foundation  
+1632 1st Ave #21385  
+New York, NY 10028
+
+## Outros meios para doação
+- [Every](https://www.every.org/zig-software-foundation-inc/)
+- [GitHub Sponsors](https://github.com/sponsors/ziglang)
+- [Benevity](https://benevity.com)
+- Transferência bancária (disponível em qualquer instituição que suporte SWIFT, entre em contato conosco para mais informações).
+- Envio de cheques em papel pelo correio (método suportado apenas nos Estados Unidos).
+- [Wise](https://wise.com)
+
+**Se tiver dúvidas ou necessidades específicas, não hesite em nos contatar pelo endereço donations@ziglang.org.**
+
+# Apoiadores corporativos
+
+## Doações
+As seguintes companhias dão apoio financeiro para a Zig Sofware Foundation doando mais de $1000/mês.
+
+[]($code.language('=html').siteAsset('corporate-sponsors.html'))
